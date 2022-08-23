@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carreras_SP", "Carreras_SP\Carreras_SP.csproj", "{FAA3CB00-EDF1-4393-AAAD-64B1CE2B631D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{76037F89-D328-42A1-A69E-DB2DDF531A20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAA3CB00-EDF1-4393-AAAD-64B1CE2B631D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAA3CB00-EDF1-4393-AAAD-64B1CE2B631D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAA3CB00-EDF1-4393-AAAD-64B1CE2B631D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAA3CB00-EDF1-4393-AAAD-64B1CE2B631D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5222FE7B-CE0B-488E-B953-9F72D4EBCEC6}
+	EndGlobalSection
+EndGlobal
