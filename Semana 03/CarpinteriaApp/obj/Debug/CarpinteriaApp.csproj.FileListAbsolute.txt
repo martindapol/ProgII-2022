@@ -1,0 +1,33 @@
+C:\Users\MARTIN\source\repos\CarpinteriaApp\bin\Debug\CarpinteriaApp.exe.config
+C:\Users\MARTIN\source\repos\CarpinteriaApp\bin\Debug\CarpinteriaApp.exe
+C:\Users\MARTIN\source\repos\CarpinteriaApp\bin\Debug\CarpinteriaApp.pdb
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Frm_Alta_Presupuesto.resources
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Form1.resources
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.Properties.Resources.resources
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.GenerateResource.cache
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.CoreCompileInputs.cache
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.exe
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.pdb
+C:\Users\MARTIN\source\repos\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.AssemblyReference.cache
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\bin\Debug\CarpinteriaApp.exe.config
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\bin\Debug\CarpinteriaApp.exe
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\bin\Debug\CarpinteriaApp.pdb
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.AssemblyReference.cache
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Frm_Alta_Presupuesto.resources
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.Properties.Resources.resources
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.GenerateResource.cache
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.CoreCompileInputs.cache
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.exe
+C:\Users\Martin\Desktop\CarpinteriaApp\CarpinteriaApp\obj\Debug\CarpinteriaApp.pdb
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\bin\Debug\CarpinteriaApp.exe.config
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\bin\Debug\CarpinteriaApp.exe
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\bin\Debug\CarpinteriaApp.pdb
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.AssemblyReference.cache
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.SuggestedBindingRedirects.cache
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Frm_Alta_Presupuesto.resources
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.Properties.Resources.resources
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.GenerateResource.cache
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.CoreCompileInputs.cache
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.exe
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.pdb
