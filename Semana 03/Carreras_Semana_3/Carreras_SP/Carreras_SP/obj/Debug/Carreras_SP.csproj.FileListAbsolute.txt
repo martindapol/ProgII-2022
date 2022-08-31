@@ -1,0 +1,38 @@
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.AssemblyReference.cache
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.SuggestedBindingRedirects.cache
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.Form1.resources
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.Properties.Resources.resources
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.GenerateResource.cache
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.CoreCompileInputs.cache
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\bin\Debug\Carreras_SP.exe.config
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\bin\Debug\Carreras_SP.exe
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\bin\Debug\Carreras_SP.pdb
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.exe
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.pdb
+C:\Users\djneo\source\repos\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.frmNuevaCarrera.resources
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\bin\Debug\Carreras_SP.exe.config
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\bin\Debug\Carreras_SP.exe
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\bin\Debug\Carreras_SP.pdb
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.AssemblyReference.cache
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.SuggestedBindingRedirects.cache
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.Form1.resources
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.frmNuevaCarrera.resources
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.Properties.Resources.resources
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.GenerateResource.cache
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.csproj.CoreCompileInputs.cache
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.exe
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.pdb
+D:\----- T U P   P I I -----\Proyectos Visual Studio\Carreras Personal\Carreras_SP\Carreras_SP\obj\Debug\Carreras_SP.frmConsultarCarreras.resources
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\bin\Debug\Carreras_SP.exe.config
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\bin\Debug\Carreras_SP.exe
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\bin\Debug\Carreras_SP.pdb
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.csproj.AssemblyReference.cache
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.csproj.SuggestedBindingRedirects.cache
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.Form1.resources
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.frmConsultarCarreras.resources
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.frmNuevaCarrera.resources
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.Properties.Resources.resources
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.csproj.GenerateResource.cache
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.csproj.CoreCompileInputs.cache
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.exe
+D:\----- T U P   P I I -----\Repo\ProgII-2022\Semana 02\Actividad\Carreras_alta\Carreras_SP\obj\Debug\Carreras_SP.pdb
