@@ -21,5 +21,20 @@ namespace Carreras_SP
         {
             this.Close();
         }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex != -1)
+            {   
+                int id_carrera = (int)comboBox1.SelectedValue;
+                if (MessageBox.Show("Seguro que desea eliminar la carrera " +  comboBox1.Text + "?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+
+
+                    new AccesoBD().EliminarCarrera(id_carrera);
+                }
+            }
+
+        }
     }
 }

@@ -39,7 +39,7 @@
             // btnCancelar
             // 
             this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(320, 408);
+            this.btnCancelar.Location = new System.Drawing.Point(217, 408);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(163, 30);
             this.btnCancelar.TabIndex = 16;
@@ -112,12 +112,11 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnCancelar;
         private System.Windows.Forms.Label lblCarreras;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label lblDetCarrera;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label lblNuevaCarrera;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

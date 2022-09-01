@@ -99,8 +99,7 @@ namespace Carreras_SP
                 return;
             }
 
-            int id_carrera = accesoBD.AltaCarrera_SP("SP_insertar_carrera", carrera);
-            accesoBD.AltaDetallesCarrera_SP("SP_insertar_detalleCarreras", id_carrera, carrera);
+            accesoBD.AltaCarrera(carrera);
 
             MessageBox.Show("La carrera ha sido agregada", "Información",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);

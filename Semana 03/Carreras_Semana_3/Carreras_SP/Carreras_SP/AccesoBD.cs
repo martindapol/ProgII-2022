@@ -49,7 +49,7 @@ namespace Carreras_SP
 
         }
 
-        public bool AltaDetallesCarrera_SP(string SPNombre, int id_carrera, Carrera carrera)
+        public bool AltaCarrera(Carrera carrera)
         {
             bool respuesta = true;
             SqlTransaction transaccion = null;
@@ -57,20 +57,27 @@ namespace Carreras_SP
             try
             {
                 conexion.Open();
-                ConfigurarComando_SP(SPNombre);
                 transaccion = conexion.BeginTransaction();
-                comando.Transaction = transaccion;
 
+                SqlCommand cmdMaestro = new SqlCommand("SP_insertar_carrera", conexion, transaccion);
+                cmdMaestro.CommandType = CommandType.StoredProcedure;
+                SqlParameter param = new SqlParameter("@new_id_carrera", SqlDbType.Int);
+                param.Direction = ParameterDirection.Output;
+                cmdMaestro.Parameters.Add(param);
+                cmdMaestro.ExecuteNonQuery();
+
+                int id_carrera = Convert.ToInt32(param.Value);
+                SqlCommand comandoDetalle = new SqlCommand("SP_insertar_detalleCarreras", conexion, transaccion);
+                comandoDetalle.CommandType = CommandType.StoredProcedure;
+            
                 for (int i = 0; i < carrera.DetallesCarrera.Count; i++)
                 {
-                    comando.Parameters.Clear();
-
-                    comando.Parameters.AddWithValue("@anioCursado", carrera.DetallesCarrera[i].AnioCursado);
-                    comando.Parameters.AddWithValue("@cuatrimestre", carrera.DetallesCarrera[i].Cuatrimestre);
-                    comando.Parameters.AddWithValue("@id_asignatura", carrera.DetallesCarrera[i].Materia.Codigo);
-                    comando.Parameters.AddWithValue("@id_carrera", id_carrera);
-
-                    comando.ExecuteNonQuery();
+                    comandoDetalle.Parameters.Clear();
+                    comandoDetalle.Parameters.AddWithValue("@anioCursado", carrera.DetallesCarrera[i].AnioCursado);
+                    comandoDetalle.Parameters.AddWithValue("@cuatrimestre", carrera.DetallesCarrera[i].Cuatrimestre);
+                    comandoDetalle.Parameters.AddWithValue("@id_asignatura", carrera.DetallesCarrera[i].Materia.Codigo);
+                    comandoDetalle.Parameters.AddWithValue("@id_carrera", id_carrera);
+                    comandoDetalle.ExecuteNonQuery();
                 }
                 transaccion.Commit();
             }
@@ -108,8 +115,19 @@ namespace Carreras_SP
 
             conexion.Close();
             return id_carrera;
-            ;
+            
         }
 
+        public bool EliminarCarrera(int id_carrera)
+        {
+            conexion.Open();
+            comando = new SqlCommand("sp_registrar_baja_carrera", conexion);
+            comando.Parameters.AddWithValue("@id_carrera", id_carrera);
+            int filas = comando.ExecuteNonQuery();
+            conexion.Close();
+
+            return filas == 1;
+
+        }
     }
 }
