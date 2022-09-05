@@ -12,11 +12,11 @@ namespace CarpinteriaApp.datos
 {
     class HelperDB
     {
-        private SqlConnection cnn; 
+        private SqlConnection cnn;
 
         public HelperDB()
         {
-            cnn = new SqlConnection(Properties.Resources.cnnString); 
+            cnn = new SqlConnection(Properties.Resources.cnnString);
         }
 
         public DataTable ConsultaSQL(string strSql)
@@ -36,16 +36,34 @@ namespace CarpinteriaApp.datos
 
 
 
-        public int EjecutarSQL(string strSql, CommandType type)
+        public int EjecutarSQL(string strSql)
         {
             int afectadas = 0;
-            SqlConnection cnn = new SqlConnection();
-            SqlCommand cmd = new SqlCommand();
-            cnn.Open();
-            cmd.Connection = cnn;
-            cmd.CommandText = strSql;
-            afectadas = cmd.ExecuteNonQuery();
-            cnn.Close();
+            SqlTransaction t = null;
+
+            try
+            {
+                SqlConnection cnn = new SqlConnection();
+                SqlCommand cmd = new SqlCommand();
+                cnn.Open();
+                t = cnn.BeginTransaction();
+                cmd.Connection = cnn;
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.CommandText = strSql;
+                cmd.Transaction = t;
+                afectadas = cmd.ExecuteNonQuery();
+                t.Commit();
+            }
+            catch (SqlException)
+            {
+                if (t != null) { t.Rollback(); }
+            }
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
+
+            }
 
             return afectadas;
         }
@@ -62,7 +80,7 @@ namespace CarpinteriaApp.datos
             pOut.DbType = DbType.Int32;
             pOut.Direction = ParameterDirection.Output;
             cmd.Parameters.Add(pOut);
-            cmd.ExecuteNonQuery();    
+            cmd.ExecuteNonQuery();
 
             cnn.Close();
             return (int)pOut.Value;
@@ -120,13 +138,13 @@ namespace CarpinteriaApp.datos
                 ok = false;
             }
 
-            finally {
-                if(cnn != null && cnn.State == ConnectionState.Open)
-                cnn.Close();
+            finally
+            {
+                if (cnn != null && cnn.State == ConnectionState.Open)
+                    cnn.Close();
             }
 
             return ok;
         }
     }
 }
-
