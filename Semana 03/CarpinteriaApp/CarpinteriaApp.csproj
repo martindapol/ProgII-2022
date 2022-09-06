@@ -47,19 +47,47 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="datos\HelperDB.cs" />
+    <Compile Include="datos\Parametro.cs" />
     <Compile Include="dominio\DetallePresupuesto.cs" />
     <Compile Include="dominio\Presupuesto.cs" />
     <Compile Include="dominio\Producto.cs" />
-    <Compile Include="formularios\Frm_Alta_Presupuesto.cs">
+    <Compile Include="formularios\FrmDetallesPresupuesto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formularios\Frm_Alta_Presupuesto.Designer.cs">
-      <DependentUpon>Frm_Alta_Presupuesto.cs</DependentUpon>
+    <Compile Include="formularios\FrmDetallesPresupuesto.Designer.cs">
+      <DependentUpon>FrmDetallesPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FrmAltaPresupuesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FrmAltaPresupuesto.Designer.cs">
+      <DependentUpon>FrmAltaPresupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\FrmConsultarPresupuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\FrmConsultarPresupuestos.Designer.cs">
+      <DependentUpon>FrmConsultarPresupuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formularios\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formularios\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="formularios\Frm_Alta_Presupuesto.resx">
-      <DependentUpon>Frm_Alta_Presupuesto.cs</DependentUpon>
+    <EmbeddedResource Include="formularios\FrmAltaPresupuesto.resx">
+      <DependentUpon>FrmAltaPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FrmConsultarPresupuestos.resx">
+      <DependentUpon>FrmConsultarPresupuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\FrmDetallesPresupuesto.resx">
+      <DependentUpon>FrmDetallesPresupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formularios\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

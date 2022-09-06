@@ -35,15 +35,33 @@ namespace CarpinteriaApp.datos
         }
 
 
+        public DataTable ConsultaSQL(string spNombre, List<Parametro> values)
+        {
+            DataTable tabla = new DataTable();
 
-        public int EjecutarSQL(string strSql)
+            cnn.Open();
+            SqlCommand cmd = new SqlCommand(spNombre, cnn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            foreach(Parametro oParametro in values)
+            {
+                cmd.Parameters.AddWithValue(oParametro.Clave, oParametro.Valor);
+            }
+
+            tabla.Load(cmd.ExecuteReader());
+            cnn.Close();
+
+            return tabla;
+        }
+
+
+
+        public int EjecutarSQL(string strSql, List<Parametro> values)
         {
             int afectadas = 0;
             SqlTransaction t = null;
 
             try
             {
-                SqlConnection cnn = new SqlConnection();
                 SqlCommand cmd = new SqlCommand();
                 cnn.Open();
                 t = cnn.BeginTransaction();
@@ -51,6 +69,14 @@ namespace CarpinteriaApp.datos
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.CommandText = strSql;
                 cmd.Transaction = t;
+
+                if(values != null)
+                {
+                    foreach (Parametro param in values) {
+                        cmd.Parameters.AddWithValue(param.Clave, param.Valor);
+                    }
+                }
+
                 afectadas = cmd.ExecuteNonQuery();
                 t.Commit();
             }
@@ -131,7 +157,7 @@ namespace CarpinteriaApp.datos
                 t.Commit();
             }
 
-            catch (Exception ex)
+            catch (Exception)
             {
                 if (t != null)
                     t.Rollback();

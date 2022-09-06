@@ -17,7 +17,7 @@ namespace CarpinteriaApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_Alta_Presupuesto());
+            Application.Run(new Principal());
         }
     }
 }

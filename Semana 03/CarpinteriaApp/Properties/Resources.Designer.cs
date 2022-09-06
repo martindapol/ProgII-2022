@@ -61,7 +61,7 @@ namespace CarpinteriaApp.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a Data Source=138.99.7.66,1433;Initial Catalog=carpinteria_db; User id=tup_prog2; Password = 44Tup@.
+        ///   Busca una cadena traducida similar a Data Source=.\SQLEXPRESS;Initial Catalog=db_carpinteria;Integrated Security=True.
         /// </summary>
         internal static string cnnString {
             get {

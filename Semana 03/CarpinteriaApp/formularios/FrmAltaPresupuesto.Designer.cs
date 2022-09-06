@@ -1,7 +1,7 @@
 ﻿
 namespace CarpinteriaApp.formularios
 {
-    partial class Frm_Alta_Presupuesto
+    partial class FrmAltaPresupuesto
     {
         /// <summary>
         /// Required designer variable.

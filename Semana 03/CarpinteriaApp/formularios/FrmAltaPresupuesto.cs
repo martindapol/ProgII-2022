@@ -7,11 +7,11 @@ using System.Windows.Forms;
 
 namespace CarpinteriaApp.formularios
 {
-    public partial class Frm_Alta_Presupuesto : Form
+    public partial class FrmAltaPresupuesto : Form
     {
         private HelperDB gestor;
         private Presupuesto nuevo;
-        public Frm_Alta_Presupuesto()
+        public FrmAltaPresupuesto()
         {
             InitializeComponent();
             gestor = new HelperDB();

@@ -25,9 +25,12 @@ D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\bin\Debug\CarpinteriaApp
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\bin\Debug\CarpinteriaApp.pdb
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.AssemblyReference.cache
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.SuggestedBindingRedirects.cache
-D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Frm_Alta_Presupuesto.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.Properties.Resources.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.GenerateResource.cache
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.csproj.CoreCompileInputs.cache
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.exe
 D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.pdb
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Principal.resources
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmAltaPresupuesto.resources
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmConsultarPresupuestos.resources
+D:\UTN\TUP PROG II\ProgII-2022\Semana 03\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmDetallesPresupuesto.resources
