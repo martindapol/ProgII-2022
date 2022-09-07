@@ -20,15 +20,26 @@ namespace CarpinteriaApp.formularios
 
         private void FrmReporteProducto_Load(object sender, EventArgs e)
         {
-            HelperDB helperDB = new HelperDB();
-            DataTable dt = helperDB.ConsultaSQL("SP_REPORTE_PRODUCTOS");
-            rvReporte.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt));
-            this.rvReporte.RefreshReport(); ;
+            dtpDesde.Value = DateTime.Now.AddDays(-30);
+            dtpHasta.Value = DateTime.Now;
+
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnGenerar_Click(object sender, EventArgs e)
+        {
+            HelperDB helper = new HelperDB();
+            List<Parametro> lst = new List<Parametro>();
+            lst.Add(new Parametro("@fecha_desde", dtpDesde.Value));
+            lst.Add(new Parametro("@fecha_hasta", dtpHasta.Value));
+            DataTable dt = helper.ConsultaSQL("SP_REPORTE_PRODUCTOS", lst);
+            rvReporte.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt));
+            rvReporte.RefreshReport();
+
         }
     }
 }
