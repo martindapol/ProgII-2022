@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet2" targetNamespace="http://tempuri.org/DataSet2.xsd" xmlns:mstns="http://tempuri.org/DataSet2.xsd" xmlns="http://tempuri.org/DataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CarrerasBD_LocalConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CarrerasBD_LocalConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Carreras__SP.Properties.Settings.GlobalReference.Default.CarrerasBD_LocalConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="CarrerasTableAdapter" GeneratorDataComponentClassName="CarrerasTableAdapter" Name="Carreras" UserDataComponentName="CarrerasTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CarrerasBD_LocalConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        Asignaturas.nombre AS Asignatura, Carreras.nombre AS Carreras, DetalleCarreras.anio_cursado AS AñoCursado, DetalleCarreras.cuatrimestre AS Cuatrimestre
+FROM            Asignaturas INNER JOIN
+                         DetalleCarreras ON Asignaturas.id_asignatura = DetalleCarreras.id_asignatura INNER JOIN
+                         Carreras ON DetalleCarreras.id_carrera = Carreras.id_carrera</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Asignatura" DataSetColumn="Asignatura" />
+              <Mapping SourceColumn="Carreras" DataSetColumn="Carreras" />
+              <Mapping SourceColumn="AñoCursado" DataSetColumn="AñoCursado" />
+              <Mapping SourceColumn="Cuatrimestre" DataSetColumn="Cuatrimestre" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DataSet2" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Carreras" msprop:Generator_RowClassName="CarrerasRow" msprop:Generator_RowEvHandlerName="CarrerasRowChangeEventHandler" msprop:Generator_RowDeletedName="CarrerasRowDeleted" msprop:Generator_RowDeletingName="CarrerasRowDeleting" msprop:Generator_RowEvArgName="CarrerasRowChangeEvent" msprop:Generator_TablePropName="Carreras" msprop:Generator_RowChangedName="CarrerasRowChanged" msprop:Generator_UserTableName="Carreras" msprop:Generator_RowChangingName="CarrerasRowChanging" msprop:Generator_TableClassName="CarrerasDataTable" msprop:Generator_TableVarName="tableCarreras">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Asignatura" msprop:Generator_ColumnPropNameInRow="Asignatura" msprop:Generator_ColumnPropNameInTable="AsignaturaColumn" msprop:Generator_ColumnVarNameInTable="columnAsignatura" msprop:Generator_UserColumnName="Asignatura">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Carreras" msprop:Generator_ColumnPropNameInRow="Carreras" msprop:Generator_ColumnPropNameInTable="CarrerasColumn" msprop:Generator_ColumnVarNameInTable="columnCarreras" msprop:Generator_UserColumnName="Carreras">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AñoCursado" msprop:Generator_ColumnPropNameInRow="AñoCursado" msprop:Generator_ColumnPropNameInTable="AñoCursadoColumn" msprop:Generator_ColumnVarNameInTable="columnAñoCursado" msprop:Generator_UserColumnName="AñoCursado" type="xs:unsignedByte" />
+              <xs:element name="Cuatrimestre" msprop:Generator_ColumnPropNameInRow="Cuatrimestre" msprop:Generator_ColumnPropNameInTable="CuatrimestreColumn" msprop:Generator_ColumnVarNameInTable="columnCuatrimestre" msprop:Generator_UserColumnName="Cuatrimestre" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
