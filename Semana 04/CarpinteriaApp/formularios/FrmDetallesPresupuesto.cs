@@ -28,7 +28,7 @@ namespace CarpinteriaApp.formularios
             List<Parametro> lst = new List<Parametro>();
             lst.Add(new Parametro("@presupuesto_nro", presupuestoNro));
 
-            DataTable dt =  new HelperDB().ConsultaSQL(sp, lst);
+            DataTable dt =  HelperDB.ObtenerInstancia().ConsultaSQL(sp, lst);
             bool primero = true;
 
             foreach (DataRow fila in dt.Rows){

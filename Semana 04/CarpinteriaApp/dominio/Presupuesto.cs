@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CarpinteriaApp.dominio
 {
-    class Presupuesto
+    public class Presupuesto
     {
         public int PresupuestoNro { get; set; }
         public DateTime Fecha { get; set; }
@@ -38,6 +38,16 @@ namespace CarpinteriaApp.dominio
             foreach (DetallePresupuesto item in Detalles)
                 total += item.CalcularSubTotal();
             return total;
+        }
+
+        public double CalcularTotalConDescuento()
+        {
+            double final = this.CalcularTotal();
+            if(Descuento > 0)
+            {
+                final -= final * Descuento/ 100;
+            }
+            return final;
         }
 
     }

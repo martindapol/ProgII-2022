@@ -32,7 +32,7 @@ namespace CarpinteriaApp.formularios
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
-            HelperDB helper = new HelperDB();
+            HelperDB helper = HelperDB.ObtenerInstancia();
             List<Parametro> lst = new List<Parametro>();
             lst.Add(new Parametro("@fecha_desde", dtpDesde.Value));
             lst.Add(new Parametro("@fecha_hasta", dtpHasta.Value));

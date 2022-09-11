@@ -43,7 +43,6 @@ D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmAltaPresupuesto.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmConsultarPresupuestos.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmDetallesPresupuesto.resources
-D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\PyCarpinteria.presentacion.FrmReporte.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmReporteProducto.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.Principal.resources
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.Properties.Resources.resources
@@ -104,3 +103,4 @@ D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\bin\Debug\pt\Microsoft.R
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\UTN\TUP PROG II\ProgII-2022\Semana 04\CarpinteriaApp\obj\Debug\CarpinteriaApp.formularios.FrmModificarPresupuesto.resources

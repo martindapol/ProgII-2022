@@ -88,11 +88,11 @@
     <Compile Include="formularios\FrmConsultarPresupuestos.Designer.cs">
       <DependentUpon>FrmConsultarPresupuestos.cs</DependentUpon>
     </Compile>
-    <Compile Include="formularios\FrmReporte.cs">
+    <Compile Include="formularios\FrmModificarPresupuesto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formularios\FrmReporte.designer.cs">
-      <DependentUpon>FrmReporte.cs</DependentUpon>
+    <Compile Include="formularios\FrmModificarPresupuesto.Designer.cs">
+      <DependentUpon>FrmModificarPresupuesto.cs</DependentUpon>
     </Compile>
     <Compile Include="formularios\FrmReporteProducto.cs">
       <SubType>Form</SubType>
@@ -124,8 +124,8 @@
     <EmbeddedResource Include="formularios\FrmDetallesPresupuesto.resx">
       <DependentUpon>FrmDetallesPresupuesto.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formularios\FrmReporte.resx">
-      <DependentUpon>FrmReporte.cs</DependentUpon>
+    <EmbeddedResource Include="formularios\FrmModificarPresupuesto.resx">
+      <DependentUpon>FrmModificarPresupuesto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formularios\FrmReporteProducto.resx">
       <DependentUpon>FrmReporteProducto.cs</DependentUpon>

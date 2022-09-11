@@ -33,10 +33,11 @@ namespace CarpinteriaApp.formularios
             lst.Add(new Parametro("@cliente", txtCliente.Text));
 
             dgvPresupuestos.Rows.Clear();
-            DataTable dt = new HelperDB().ConsultaSQL(sp, lst);
+            DataTable dt = HelperDB.ObtenerInstancia().ConsultaSQL(sp, lst);
             foreach (DataRow fila in dt.Rows)
             {
-                dgvPresupuestos.Rows.Add(new object[] { fila["presupuesto_nro"].ToString(),
+                dgvPresupuestos.Rows.Add(new object[] {
+                    fila["presupuesto_nro"].ToString(),
                     fila["fecha"].ToString(),
                     fila["cliente"].ToString(),
                     fila["Total"].ToString()});
@@ -62,8 +63,8 @@ namespace CarpinteriaApp.formularios
                     List<Parametro> lst = new List<Parametro>();
                     lst.Add(new Parametro("@presupuesto_nro", nro));
 
-                    int afectadas = new HelperDB().EjecutarSQL("SP_ELIMINAR_PRESUPUESTO", lst);
-                    if(afectadas == 1)
+                    int afectadas = HelperDB.ObtenerInstancia().EjecutarSQL("SP_ELIMINAR_PRESUPUESTO", lst);
+                    if (afectadas == 1)
                     {
                         MessageBox.Show("El presupuesto se quitó exitosamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.btnConsultar_Click(sender, e);
@@ -75,6 +76,31 @@ namespace CarpinteriaApp.formularios
 
                 }
             }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            if(MessageBox.Show("Seguro que desea salir?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
+        }
+
+        private void dgvPresupuestos_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow actual = dgvPresupuestos.CurrentRow;
+            if (actual != null)
+            {
+                btnBorrar.Enabled = BtnEditar.Enabled = true;
+
+            }
+        }
+
+        private void BtnEditar_Click(object sender, EventArgs e)
+        {
+            int nro = int.Parse(dgvPresupuestos.CurrentRow.Cells["colNro"].Value.ToString());
+            new FrmModificarPresupuesto(nro).ShowDialog();
+            this.btnConsultar_Click(null, null);
         }
     }
 }

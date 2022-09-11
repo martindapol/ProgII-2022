@@ -37,6 +37,11 @@ namespace CarpinteriaApp.formularios
             this.txtDto = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dgvDetalles = new System.Windows.Forms.DataGridView();
+            this.idProdCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colProd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.precioCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.actionCol = new System.Windows.Forms.DataGridViewButtonColumn();
             this.cboProductos = new System.Windows.Forms.ComboBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.txtCantidad = new System.Windows.Forms.TextBox();
@@ -46,21 +51,16 @@ namespace CarpinteriaApp.formularios
             this.label1 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtFinal = new System.Windows.Forms.TextBox();
-            this.idProdCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colProd = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.precioCol = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colCantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.actionCol = new System.Windows.Forms.DataGridViewButtonColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetalles)).BeginInit();
             this.SuspendLayout();
             // 
             // lblNroPresupuesto
             // 
             this.lblNroPresupuesto.AutoSize = true;
-            this.lblNroPresupuesto.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNroPresupuesto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNroPresupuesto.Location = new System.Drawing.Point(34, 21);
             this.lblNroPresupuesto.Name = "lblNroPresupuesto";
-            this.lblNroPresupuesto.Size = new System.Drawing.Size(146, 22);
+            this.lblNroPresupuesto.Size = new System.Drawing.Size(139, 20);
             this.lblNroPresupuesto.TabIndex = 0;
             this.lblNroPresupuesto.Text = "Presupuesto Nº:";
             // 
@@ -135,6 +135,40 @@ namespace CarpinteriaApp.formularios
             this.dgvDetalles.TabIndex = 9;
             this.dgvDetalles.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDetalles_CellContentClick);
             // 
+            // idProdCol
+            // 
+            this.idProdCol.HeaderText = "ID";
+            this.idProdCol.Name = "idProdCol";
+            this.idProdCol.ReadOnly = true;
+            this.idProdCol.Visible = false;
+            // 
+            // colProd
+            // 
+            this.colProd.HeaderText = "Producto";
+            this.colProd.Name = "colProd";
+            this.colProd.ReadOnly = true;
+            this.colProd.Width = 220;
+            // 
+            // precioCol
+            // 
+            this.precioCol.HeaderText = "Precio";
+            this.precioCol.Name = "precioCol";
+            this.precioCol.ReadOnly = true;
+            // 
+            // colCantidad
+            // 
+            this.colCantidad.HeaderText = "Cantidad";
+            this.colCantidad.Name = "colCantidad";
+            this.colCantidad.ReadOnly = true;
+            // 
+            // actionCol
+            // 
+            this.actionCol.HeaderText = "Acciones";
+            this.actionCol.Name = "actionCol";
+            this.actionCol.ReadOnly = true;
+            this.actionCol.Text = "Quitar";
+            this.actionCol.UseColumnTextForButtonValue = true;
+            // 
             // cboProductos
             // 
             this.cboProductos.FormattingEnabled = true;
@@ -195,20 +229,20 @@ namespace CarpinteriaApp.formularios
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(399, 362);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 22);
+            this.label1.Size = new System.Drawing.Size(101, 20);
             this.label1.TabIndex = 11;
             this.label1.Text = "Sub Total $";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(431, 390);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(71, 22);
+            this.label6.Size = new System.Drawing.Size(69, 20);
             this.label6.TabIndex = 13;
             this.label6.Text = " Total $";
             // 
@@ -223,41 +257,7 @@ namespace CarpinteriaApp.formularios
             this.txtFinal.Size = new System.Drawing.Size(94, 20);
             this.txtFinal.TabIndex = 12;
             // 
-            // idProdCol
-            // 
-            this.idProdCol.HeaderText = "ID";
-            this.idProdCol.Name = "idProdCol";
-            this.idProdCol.ReadOnly = true;
-            this.idProdCol.Visible = false;
-            // 
-            // colProd
-            // 
-            this.colProd.HeaderText = "Producto";
-            this.colProd.Name = "colProd";
-            this.colProd.ReadOnly = true;
-            this.colProd.Width = 220;
-            // 
-            // precioCol
-            // 
-            this.precioCol.HeaderText = "Precio";
-            this.precioCol.Name = "precioCol";
-            this.precioCol.ReadOnly = true;
-            // 
-            // colCantidad
-            // 
-            this.colCantidad.HeaderText = "Cantidad";
-            this.colCantidad.Name = "colCantidad";
-            this.colCantidad.ReadOnly = true;
-            // 
-            // actionCol
-            // 
-            this.actionCol.HeaderText = "Acciones";
-            this.actionCol.Name = "actionCol";
-            this.actionCol.ReadOnly = true;
-            this.actionCol.Text = "Quitar";
-            this.actionCol.UseColumnTextForButtonValue = true;
-            // 
-            // Frm_Alta_Presupuesto
+            // FrmAltaPresupuesto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -280,7 +280,9 @@ namespace CarpinteriaApp.formularios
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblNroPresupuesto);
             this.MaximizeBox = false;
-            this.Name = "Frm_Alta_Presupuesto";
+            this.MaximumSize = new System.Drawing.Size(643, 512);
+            this.MinimumSize = new System.Drawing.Size(643, 512);
+            this.Name = "FrmAltaPresupuesto";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Nuevo Presupuesto";
             this.Load += new System.EventHandler(this.Frm_Alta_Presupuesto_Load);

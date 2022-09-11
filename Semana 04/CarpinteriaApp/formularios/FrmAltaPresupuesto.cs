@@ -9,12 +9,12 @@ namespace CarpinteriaApp.formularios
 {
     public partial class FrmAltaPresupuesto : Form
     {
-        private HelperDB gestor;
+        private HelperDB helper;
         private Presupuesto nuevo;
         public FrmAltaPresupuesto()
         {
             InitializeComponent();
-            gestor = new HelperDB();
+            helper = HelperDB.ObtenerInstancia();
             CargarProductos();
             //Crear nuevo presupuesto:
             nuevo = new Presupuesto();
@@ -94,12 +94,11 @@ namespace CarpinteriaApp.formularios
                 double dto = (total * Convert.ToDouble(txtDto.Text)) / 100;
                 txtFinal.Text = (total - dto).ToString();
             }
-
         }
 
         private void CargarProductos()
         {
-            DataTable table = gestor.ConsultaSQL("SP_CONSULTAR_PRODUCTOS");
+            DataTable table = helper.ConsultaSQL("SP_CONSULTAR_PRODUCTOS", null);
             if (table != null)
             {
                 cboProductos.DataSource = table;
@@ -109,7 +108,7 @@ namespace CarpinteriaApp.formularios
         }
         private void ProximoPresupuesto()
         {
-            int next = gestor.ProximoPresupuesto();
+            int next = helper.ProximoPresupuesto();
             if (next > 0)
                 lblNroPresupuesto.Text = "Presupuesto Nº: " + next.ToString();
             else
@@ -123,7 +122,7 @@ namespace CarpinteriaApp.formularios
             nuevo.Descuento = Convert.ToDouble(txtDto.Text);
             nuevo.Fecha = Convert.ToDateTime(txtFecha.Text);
 
-            if (gestor.ConfirmarPresupuesto(nuevo))
+            if (helper.ConfirmarPresupuesto(nuevo))
             {
                 MessageBox.Show("Presupuesto registrado", "Informe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Dispose();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarpinteriaApp.dominio
 {
-    class Producto
+    public class Producto
     {
         public int ProductoNro { get; set; }
         public string Nombre { get; set; }
