@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Martin\\source\\repos\\PilasColasApp\\PilasColasApp\\PilasColasApp.csproj",
+      "projectUniqueName": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 05\\PilasColasApp\\PilasColasApp\\PilasColasApp.csproj",
       "projectName": "PilasColasApp",
-      "projectPath": "C:\\Users\\Martin\\source\\repos\\PilasColasApp\\PilasColasApp\\PilasColasApp.csproj",
+      "projectPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 05\\PilasColasApp\\PilasColasApp\\PilasColasApp.csproj",
       "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Martin\\source\\repos\\PilasColasApp\\PilasColasApp\\obj\\",
+      "outputPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 05\\PilasColasApp\\PilasColasApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
