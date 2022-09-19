@@ -1,4 +1,5 @@
-﻿using PyCarpinteria.presentacion;
+﻿using CarpinteriaApp.Servicios;
+using PyCarpinteria.presentacion;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,11 @@ namespace CarpinteriaApp.formularios
 {
     public partial class Principal : Form
     {
-        public Principal()
+        private FabricaServicio fabrica;
+        public Principal(FabricaServicio fabrica)
         {
             InitializeComponent();
+            this.fabrica = fabrica;
         }
 
         private void acercaDeToolStripMenuItem1_Click(object sender, EventArgs e)
@@ -33,17 +36,17 @@ namespace CarpinteriaApp.formularios
 
         private void nuevoPresupuestoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmAltaPresupuesto().ShowDialog();
+            new FrmAltaPresupuesto(fabrica).ShowDialog();
         }
 
         private void consultarPresupuestosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmConsultarPresupuestos().ShowDialog();
+            new FrmConsultarPresupuestos(fabrica).ShowDialog();
         }
 
         private void reporteDeProductosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FrmReporteProducto().ShowDialog();
+            new FrmReporteProducto(fabrica).ShowDialog();
         }
     }
 }

@@ -1,4 +1,7 @@
 ﻿using CarpinteriaApp.datos;
+using CarpinteriaApp.dominio;
+using CarpinteriaApp.Servicios;
+using CarpinteriaApp.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -12,10 +15,15 @@ using System.Windows.Forms;
 namespace CarpinteriaApp.formularios
 {
     public partial class FrmConsultarPresupuestos : Form
-    {
-        public FrmConsultarPresupuestos()
+    {   
+        private IServicio servicio;
+        private FabricaServicio fabrica;
+
+        public FrmConsultarPresupuestos(FabricaServicio fabrica)
         {
             InitializeComponent();
+            this.fabrica = fabrica;
+            servicio = fabrica.CrearServicio();
         }
 
         private void Frm_Consultar_Presupuestos_Load(object sender, EventArgs e)
@@ -26,21 +34,16 @@ namespace CarpinteriaApp.formularios
 
         private void btnConsultar_Click(object sender, EventArgs e)
         {
-            string sp = "SP_CONSULTAR_PRESUPUESTOS";
-            List<Parametro> lst = new List<Parametro>();
-            lst.Add(new Parametro("@fecha_desde", dtpDesde.Value));
-            lst.Add(new Parametro("@fecha_hasta", dtpHasta.Value));
-            lst.Add(new Parametro("@cliente", txtCliente.Text));
-
+            
             dgvPresupuestos.Rows.Clear();
-            DataTable dt = HelperDB.ObtenerInstancia().ConsultaSQL(sp, lst);
-            foreach (DataRow fila in dt.Rows)
+            List <Presupuesto> lst = servicio.ObtenerPresupuestos(dtpDesde.Value, dtpHasta.Value, txtCliente.Text);
+            foreach (Presupuesto presupuesto in lst)
             {
                 dgvPresupuestos.Rows.Add(new object[] {
-                    fila["presupuesto_nro"].ToString(),
-                    fila["fecha"].ToString(),
-                    fila["cliente"].ToString(),
-                    fila["Total"].ToString()});
+                    presupuesto.PresupuestoNro,
+                    presupuesto.Fecha.ToString("dd/MM/yyyy"),
+                    presupuesto.Cliente,
+                    });
             }
         }
 
@@ -49,7 +52,7 @@ namespace CarpinteriaApp.formularios
             if (dgvPresupuestos.CurrentCell.ColumnIndex == 4)
             {
                 int nro = int.Parse(dgvPresupuestos.CurrentRow.Cells["colNro"].Value.ToString());
-                new FrmDetallesPresupuesto(nro).ShowDialog();
+                new FrmDetallesPresupuesto(nro, fabrica).ShowDialog();
             }
         }
 
@@ -60,11 +63,7 @@ namespace CarpinteriaApp.formularios
                 if (dgvPresupuestos.CurrentRow != null)
                 {
                     int nro = int.Parse(dgvPresupuestos.CurrentRow.Cells["colNro"].Value.ToString());
-                    List<Parametro> lst = new List<Parametro>();
-                    lst.Add(new Parametro("@presupuesto_nro", nro));
-
-                    int afectadas = HelperDB.ObtenerInstancia().EjecutarSQL("SP_ELIMINAR_PRESUPUESTO", lst);
-                    if (afectadas == 1)
+                    if (servicio.BorrarPresupuesto(nro))
                     {
                         MessageBox.Show("El presupuesto se quitó exitosamente!", "Confirmación", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         this.btnConsultar_Click(sender, e);
@@ -99,7 +98,7 @@ namespace CarpinteriaApp.formularios
         private void BtnEditar_Click(object sender, EventArgs e)
         {
             int nro = int.Parse(dgvPresupuestos.CurrentRow.Cells["colNro"].Value.ToString());
-            new FrmModificarPresupuesto(nro).ShowDialog();
+            new FrmModificarPresupuesto(nro, fabrica).ShowDialog();
             this.btnConsultar_Click(null, null);
         }
     }

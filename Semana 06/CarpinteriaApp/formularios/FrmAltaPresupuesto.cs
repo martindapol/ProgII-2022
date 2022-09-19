@@ -12,13 +12,13 @@ namespace CarpinteriaApp.formularios
 {
     public partial class FrmAltaPresupuesto : Form
     {
-        private IServicio gestor;
+        private IServicio servicio;
 
         private Presupuesto nuevo;
         public FrmAltaPresupuesto(FabricaServicio fabrica)
         {
             InitializeComponent();
-            gestor = fabrica.CrearServicio();
+            servicio = fabrica.CrearServicio();
 
             CargarProductos();
             //Crear nuevo presupuesto:
@@ -59,17 +59,12 @@ namespace CarpinteriaApp.formularios
                 }
             }
 
-            DataRowView item = (DataRowView)cboProductos.SelectedItem;
-
-            int prod = Convert.ToInt32(item.Row.ItemArray[0]);
-            string nom = item.Row.ItemArray[1].ToString();
-            double pre = Convert.ToDouble(item.Row.ItemArray[2]);
-            Producto p = new Producto(prod, nom, pre);
+            Producto p = (Producto)cboProductos.SelectedItem;
             int cantidad = Convert.ToInt32(txtCantidad.Text);
 
             DetallePresupuesto detalle = new DetallePresupuesto(p, cantidad);
             nuevo.AgregarDetalle(detalle);
-            dgvDetalles.Rows.Add(new object[] { item.Row.ItemArray[0], item.Row.ItemArray[1], item.Row.ItemArray[2], txtCantidad.Text });
+            dgvDetalles.Rows.Add(new object[] { p.ProductoNro, p.Nombre, p.Precio, txtCantidad.Text });
 
             CalcularTotal();
         }
@@ -101,7 +96,7 @@ namespace CarpinteriaApp.formularios
 
         private void CargarProductos()
         {
-            cboProductos.DataSource = gestor.ObtenerProductos();
+            cboProductos.DataSource = servicio.ObtenerProductos();
             cboProductos.DisplayMember = "Nombre";
             cboProductos.ValueMember = "ProductoNro";
 
@@ -110,7 +105,7 @@ namespace CarpinteriaApp.formularios
         {
 
 
-            int next = gestor.ProximoPresupuesto();
+            int next = servicio.ProximoPresupuesto();
             if (next > 0)
                 lblNroPresupuesto.Text = "Presupuesto Nº: " + next.ToString();
             else
@@ -124,7 +119,7 @@ namespace CarpinteriaApp.formularios
             nuevo.Descuento = Convert.ToDouble(txtDto.Text);
             nuevo.Fecha = Convert.ToDateTime(txtFecha.Text);
 
-            /*if (helper.ConfirmarPresupuesto(nuevo))
+            if (servicio.CrearPresupuesto(nuevo))
             {
                 MessageBox.Show("Presupuesto registrado", "Informe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Dispose();
@@ -132,7 +127,7 @@ namespace CarpinteriaApp.formularios
             else
             {
                 MessageBox.Show("ERROR. No se pudo registrar el presupuesto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }*/
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)

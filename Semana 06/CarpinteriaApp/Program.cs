@@ -1,4 +1,5 @@
 ﻿using CarpinteriaApp.formularios;
+using CarpinteriaApp.Servicios;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace CarpinteriaApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Principal());
+            Application.Run(new Principal(new FabricaServicioImp()));
         }
     }
 }

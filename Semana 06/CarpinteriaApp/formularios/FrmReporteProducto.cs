@@ -1,4 +1,6 @@
 ﻿using CarpinteriaApp.datos;
+using CarpinteriaApp.Servicios;
+using CarpinteriaApp.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +15,12 @@ namespace CarpinteriaApp.formularios
 {
     public partial class FrmReporteProducto : Form
     {
-        public FrmReporteProducto()
+        private IServicio servicio;
+        public FrmReporteProducto(FabricaServicio fabrica)
         {
             InitializeComponent();
+            servicio = fabrica.CrearServicio();
+
         }
 
         private void FrmReporteProducto_Load(object sender, EventArgs e)
@@ -32,11 +37,7 @@ namespace CarpinteriaApp.formularios
 
         private void btnGenerar_Click(object sender, EventArgs e)
         {
-            HelperDB helper = HelperDB.ObtenerInstancia();
-            List<Parametro> lst = new List<Parametro>();
-            lst.Add(new Parametro("@fecha_desde", dtpDesde.Value));
-            lst.Add(new Parametro("@fecha_hasta", dtpHasta.Value));
-            DataTable dt = helper.ConsultaSQL("SP_REPORTE_PRODUCTOS", lst);
+            DataTable dt = servicio.ObtenerReporteProductos(dtpDesde.Value, dtpHasta.Value);
             rvReporte.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt));
             rvReporte.RefreshReport();
 

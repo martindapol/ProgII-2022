@@ -198,6 +198,7 @@
             this.colTotal.HeaderText = "Total";
             this.colTotal.Name = "colTotal";
             this.colTotal.ReadOnly = true;
+            this.colTotal.Visible = false;
             // 
             // colDetalles
             // 

@@ -1,5 +1,7 @@
 ﻿using CarpinteriaApp.datos;
 using CarpinteriaApp.dominio;
+using CarpinteriaApp.Servicios;
+using CarpinteriaApp.Servicios.Interfaz;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,24 +17,25 @@ namespace CarpinteriaApp.formularios
     public partial class FrmModificarPresupuesto : Form
     {
         private Presupuesto oPresupuesto;
+        private IServicio servicio;
     
-        public FrmModificarPresupuesto(int presupuestoNro)
+        public FrmModificarPresupuesto(int presupuestoNro, FabricaServicio fabrica)
         {
             InitializeComponent();
             oPresupuesto = new Presupuesto();
             oPresupuesto.PresupuestoNro = presupuestoNro;
+            servicio = fabrica.CrearServicio();
             CargarProductos();
         }
 
         private void CargarProductos()
         {
-            HelperDB helper = HelperDB.ObtenerInstancia();
-            DataTable table = helper.ConsultaSQL("SP_CONSULTAR_PRODUCTOS", null);
-            if (table != null)
+            List<Producto> lst = servicio.ObtenerProductos();
+            if (lst.Count > 0)
             {
-                cboProductos.DataSource = table;
-                cboProductos.DisplayMember = "n_producto";
-                cboProductos.ValueMember = "id_producto";
+                cboProductos.DataSource = lst;
+                cboProductos.DisplayMember = "Nombre";
+                cboProductos.ValueMember = "ProductoNro";
             }
         }
 
@@ -108,17 +111,12 @@ namespace CarpinteriaApp.formularios
                 }
             }
 
-            DataRowView item = (DataRowView)cboProductos.SelectedItem;
-
-            int prod = Convert.ToInt32(item.Row.ItemArray[0]);
-            string nom = item.Row.ItemArray[1].ToString();
-            double pre = Convert.ToDouble(item.Row.ItemArray[2]);
-            Producto p = new Producto(prod, nom, pre);
+            Producto p = (Producto)cboProductos.SelectedItem;
             int cantidad = Convert.ToInt32(txtCantidad.Text);
 
             DetallePresupuesto detalle = new DetallePresupuesto(p, cantidad);
             oPresupuesto.AgregarDetalle(detalle);
-            dgvDetalles.Rows.Add(new object[] { item.Row.ItemArray[0], item.Row.ItemArray[1], item.Row.ItemArray[2], txtCantidad.Text });
+            dgvDetalles.Rows.Add(new object[] {p.ProductoNro, p.Nombre, p.Precio, txtCantidad.Text });
 
             CalcularTotal();
         }
@@ -166,9 +164,8 @@ namespace CarpinteriaApp.formularios
         {
             oPresupuesto.Descuento = Double.Parse(txtDto.Text);
             oPresupuesto.Cliente = txtCliente.Text;
-           
-            HelperDB helper = HelperDB.ObtenerInstancia();
-            if (helper.ModificarPresupuesto(oPresupuesto))
+            
+            if (servicio.ActualizarPresupuesto(oPresupuesto))
             {
                 MessageBox.Show("Presupuesto modificado", "Informe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Dispose();
@@ -177,8 +174,6 @@ namespace CarpinteriaApp.formularios
             {
                 MessageBox.Show("ERROR. No se pudo modificar el presupuesto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
-
         }
     }
 }
