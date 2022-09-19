@@ -1,0 +1,57 @@
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.exe
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.deps.json
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.runtimeconfig.json
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.pdb
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.AssemblyReference.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Form1.resources
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Presentacion.frmCola.resources
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Presentacion.frmPila.resources
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.GenerateResource.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.GeneratedMSBuildEditorConfig.editorconfig
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.AssemblyInfoInputs.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.AssemblyInfo.cs
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.CoreCompileInputs.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\refint\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.pdb
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.genruntimeconfig.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\ref\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.exe
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.deps.json
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.runtimeconfig.json
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.pdb
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.AssemblyReference.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Form1.resources
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Presentacion.frmCola.resources
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Presentacion.frmPila.resources
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.GenerateResource.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.GeneratedMSBuildEditorConfig.editorconfig
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.AssemblyInfoInputs.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.AssemblyInfo.cs
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.CoreCompileInputs.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\refint\PilasYColas__App.dll
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.pdb
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.genruntimeconfig.cache
+D:\----- T U P   P I I -----\----- Proyectos Visual Studio -----\Carreras__SP_Semana_05\Pilas_Y_Colas__App\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\ref\PilasYColas__App.dll
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.exe
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.deps.json
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.runtimeconfig.json
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.dll
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\bin\Debug\net6.0-windows\PilasYColas__App.pdb
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.AssemblyReference.cache
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Form1.resources
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Presentacion.frmCola.resources
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.Presentacion.frmPila.resources
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.GenerateResource.cache
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.AssemblyInfoInputs.cache
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.AssemblyInfo.cs
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.csproj.CoreCompileInputs.cache
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.dll
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\refint\PilasYColas__App.dll
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.pdb
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\PilasYColas__App.genruntimeconfig.cache
+C:\Users\Martin\Downloads\PilasYColas__App\PilasYColas__App\obj\Debug\net6.0-windows\ref\PilasYColas__App.dll
