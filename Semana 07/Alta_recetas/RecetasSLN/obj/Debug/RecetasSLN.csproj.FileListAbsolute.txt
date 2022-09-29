@@ -1,0 +1,54 @@
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Frm_Alta.resources
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+C:\Users\marti\source\repos\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.FrmConsultarRecetas.resources
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+C:\Users\marti\Documents\Nuevo programa\General\Parcial Recuperatorio\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.SuggestedBindingRedirects.cache
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.FrmConsultarRecetas.resources
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+D:\UTN\ProgramacionII\2022\2Cuatrimestre\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.FrmAltaReceta.resources
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csprojAssemblyReference.cache
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.FrmConsultarRecetas.resources
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.FrmAltaReceta.resources
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+C:\TUPProgramacionII\RepasoParcialRecetas\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe.config
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.exe
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\bin\Debug\RecetasSLN.pdb
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.AssemblyReference.cache
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.SuggestedBindingRedirects.cache
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.presentación.FrmConsultarRecetas.resources
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.FrmAltaReceta.resources
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.Properties.Resources.resources
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.GenerateResource.cache
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.csproj.CoreCompileInputs.cache
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.exe
+D:\UTN\TUP PROG II\repo\ProgII-2022\Semana 07\Alta_recetas\RecetasSLN\obj\Debug\RecetasSLN.pdb
