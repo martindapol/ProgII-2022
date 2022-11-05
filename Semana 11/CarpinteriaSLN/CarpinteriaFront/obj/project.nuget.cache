@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xp8E3loL1w1yeYLG2lt30YmyO1GW6LrmfHC68skIIc4sVh9pfmhb99HtSu5w6ODUhmRjToKtahqBPaJCFNxZAA==",
+  "dgSpecHash": "SBSn/T+obEk19MFM+cJrLmLK3mjVwpMXN4l4gybaCn9EhSY9wQ7CBut0BlQw4bZwsHiIZTTiGbc0dwtLQspl7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\CarpinteriaFront\\CarpinteriaFront.csproj",
+  "projectFilePath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\CarpinteriaFront\\CarpinteriaFront.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

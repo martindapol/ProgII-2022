@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {}
+    "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {
+    "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
+        "projectUniqueName": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
         "projectName": "DataAPI",
-        "projectPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
+        "projectPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\obj\\",
+        "outputPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",

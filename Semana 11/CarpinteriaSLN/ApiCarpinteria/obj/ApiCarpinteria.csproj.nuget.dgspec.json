@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj": {}
+    "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj": {
+    "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj",
+        "projectUniqueName": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj",
         "projectName": "ApiCarpinteria",
-        "projectPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj",
+        "projectPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\ApiCarpinteria\\ApiCarpinteria.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\ApiCarpinteria\\obj\\",
+        "outputPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\ApiCarpinteria\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {
-                "projectPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj"
+              "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {
+                "projectPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {
+    "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
+        "projectUniqueName": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
         "projectName": "DataAPI",
-        "projectPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
+        "projectPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
         "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\obj\\",
+        "outputPath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",

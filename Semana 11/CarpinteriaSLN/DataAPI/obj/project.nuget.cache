@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wkAFXUf2g4tTuUr1qOd4rH4zQkw3nHnV9l9UTlfWFJ/7wu5U82lCi/4wYIdsRYIPErwE2W3aZnX7bQ28UYOtKQ==",
+  "dgSpecHash": "bVQBbXxI95fyTL7l6r0hdqmamZ4GSjwIp1/PAeyD/zvXKUlBYLwDltaKMtuw+g3vVFUgSe5EzbqefX3oG4gh7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Martin\\Desktop\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
+  "projectFilePath": "D:\\UTN\\TUP PROG II\\repo\\ProgII-2022\\Semana 11\\CarpinteriaSLN\\DataAPI\\DataAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\Martin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

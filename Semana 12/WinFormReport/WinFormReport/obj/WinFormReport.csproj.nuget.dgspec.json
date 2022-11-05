@@ -1,0 +1,95 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinFormReport\\WinFormReport.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinFormReport\\WinFormReport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinFormReport\\WinFormReport.csproj",
+        "projectName": "WinFormReport",
+        "projectPath": "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinFormReport\\WinFormReport.csproj",
+        "packagesPath": "C:\\Users\\Martin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinFormReport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinNetFramework\\WinNetFramework.csproj": {
+                "projectPath": "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinNetFramework\\WinNetFramework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "ReportViewerCore.WinForms": {
+              "target": "Package",
+              "version": "[15.1.17, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinNetFramework\\WinNetFramework.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinNetFramework\\WinNetFramework.csproj",
+        "projectName": "WinNetFramework",
+        "projectPath": "C:\\Users\\Martin\\source\\repos\\WinFormReport\\WinNetFramework\\WinNetFramework.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

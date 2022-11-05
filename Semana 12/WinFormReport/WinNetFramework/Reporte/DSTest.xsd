@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSTest" targetNamespace="http://tempuri.org/DSTest.xsd" xmlns:mstns="http://tempuri.org/DSTest.xsd" xmlns="http://tempuri.org/DSTest.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection ConnectionStringObject="Data Source=.\SQLEXPRESS;Initial Catalog=db_carpinteria;Integrated Security=True" IsAppSettingsProperty="false" Modifier="Assembly" Name="mr-bone\sqlexpress.db_carpinteria.dbo" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSTest" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DSTest" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSTest">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTReporte" msprop:Generator_RowEvHandlerName="DTReporteRowChangeEventHandler" msprop:Generator_RowDeletedName="DTReporteRowDeleted" msprop:Generator_RowDeletingName="DTReporteRowDeleting" msprop:Generator_RowEvArgName="DTReporteRowChangeEvent" msprop:Generator_TablePropName="DTReporte" msprop:Generator_RowChangedName="DTReporteRowChanged" msprop:Generator_RowChangingName="DTReporteRowChanging" msprop:Generator_TableClassName="DTReporteDataTable" msprop:Generator_RowClassName="DTReporteRow" msprop:Generator_TableVarName="tableDTReporte" msprop:Generator_UserTableName="DTReporte">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="presupuesto" msprop:Generator_ColumnPropNameInRow="presupuesto" msprop:Generator_ColumnPropNameInTable="presupuestoColumn" msprop:Generator_ColumnVarNameInTable="columnpresupuesto" msprop:Generator_UserColumnName="presupuesto" type="xs:int" minOccurs="0" />
+              <xs:element name="cliente" msprop:Generator_ColumnPropNameInRow="cliente" msprop:Generator_ColumnPropNameInTable="clienteColumn" msprop:Generator_ColumnVarNameInTable="columncliente" msprop:Generator_UserColumnName="cliente" type="xs:string" minOccurs="0" />
+              <xs:element name="total" msprop:Generator_ColumnPropNameInRow="total" msprop:Generator_ColumnPropNameInTable="totalColumn" msprop:Generator_ColumnVarNameInTable="columntotal" msprop:Generator_UserColumnName="total" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
